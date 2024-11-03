@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    background-color: #f3f6fa;
+}
+
+.text-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.container1 {
+    position: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.container {
+    margin: 100px auto 0;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    max-width: 450px;
+    width: 100%;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+.converter .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.converter label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.converter input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.total-price {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.total-price h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.total-price p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+}
+
+.total-price #price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.price-rate {
+    font-size: 14px;
+    color: #666;
+}
